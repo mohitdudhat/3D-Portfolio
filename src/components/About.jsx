@@ -1,9 +1,17 @@
-import React from 'react'
-
+import { motion } from "framer-motion";
+import Tilt from "react-tilt";
+import { styles } from "../styles";
+import { services } from "../constant";
+import { fadeIn, textVariant } from "../utils/motion";
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.heroHeadText}>Overview.</h2>
+      </motion.div>
+    </>
+  );
+};
 
-export default About
+export default About;
