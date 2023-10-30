@@ -16,6 +16,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import express from "./tech/express.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -27,10 +28,25 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import HairCutter from "./HairCutter.png";
+import Tyler from "./Tyler.png";
+import Selo from "./Selo.png";
+import Portfolio from "./Portfolio.png";
+import TODO from "./ToDo.png";
+import Bankist from "./Bankist.png";
+import Portfolio_3D from "./3D-Portfolio.png";
+import eTrade from "./eTrade.png";
+import Forkify from "./Forkify.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  Bankist,
+  TODO,
+  eTrade,
+  Portfolio_3D,
+  HairCutter,
+  express,
   logo,
   backend,
   creator,
@@ -59,4 +75,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  Tyler,
+  Selo,
+  Portfolio,
+  Forkify,
 };
