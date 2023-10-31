@@ -56,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -64,7 +64,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -431,6 +431,10 @@ const projects = [
       },
       {
         name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Threejs",
         color: "green-text-gradient",
       },
       {
